@@ -42,7 +42,7 @@ const Footer = () => {
           <FaMedium size={30} />
         </a>
         <a
-          href=""
+          href="https://github.com/vicowiti"
           target="_blank"
           className="cursor-pointer hover:scale-110 duration-300"
         >
