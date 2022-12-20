@@ -1,5 +1,7 @@
 import React from "react";
 import { FaLinkedinIn, FaTwitter, FaMedium, FaGithub } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+
 const Footer = () => {
   return (
     <footer className="footer items-center p-4 bg-neutral text-neutral-content">
@@ -45,6 +47,13 @@ const Footer = () => {
           className="cursor-pointer hover:scale-110 duration-300"
         >
           <FaGithub size={30} />
+        </a>
+        <a
+          href="mailto:viowiti12@gmail.com"
+          target="_blank"
+          className="cursor-pointer hover:scale-110 duration-300"
+        >
+          <AiOutlineMail size={30} />
         </a>
       </div>
     </footer>

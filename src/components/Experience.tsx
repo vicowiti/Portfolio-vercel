@@ -4,8 +4,8 @@ import TopImg from "../assets/topimage.png";
 
 const Experience = () => {
   return (
-    <div className="p-10">
-      <div className="font-bold text-4xl mx-2 p-3 text-center">
+    <div className="p-10" id="experience">
+      <div className="font-bold text-5xl mx-2 p-3 text-center">
         <h1>Work Experience</h1>
       </div>
       <div>

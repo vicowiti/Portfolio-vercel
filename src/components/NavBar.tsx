@@ -13,19 +13,19 @@ const NavBar = () => {
         </Link>
       </li>
       <li>
-        <Link
-          to="/"
+        <a
+          href="#experience"
           className="hover:text-secondary font-bold hover:border-2 hover:border-red-600 duration-200"
         >
           Experience
-        </Link>
+        </a>
       </li>
       <li>
         <Link
-          to="/"
+          to="/blog"
           className="hover:text-secondary font-bold hover:border-2 hover:border-red-600 duration-200"
         >
-          Services
+          Blog
         </Link>
       </li>
       <li>
@@ -34,14 +34,6 @@ const NavBar = () => {
           className="hover:text-secondary font-bold hover:border-2 hover:border-red-600 duration-200"
         >
           Projects
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="/"
-          className="hover:text-secondary font-bold hover:border-2 hover:border-red-600 duration-200"
-        >
-          Contact
         </Link>
       </li>
     </>
@@ -80,7 +72,7 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-secondary font-bold border-2 border-red-600 duration-200">
+        <a className="btn text-secondary font-bold border-2 bg-primary border-red-600 duration-200">
           Download Resume
         </a>
       </div>
