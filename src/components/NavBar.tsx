@@ -72,7 +72,7 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-secondary font-bold border-2 bg-primary border-red-600 duration-200">
+        <a className="btn text-secondary px-1 font-bold border-2 bg-primary border-red-600 duration-200">
           Download Resume
         </a>
       </div>
